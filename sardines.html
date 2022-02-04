@@ -1,0 +1,137 @@
+<HTML>
+<HEAD>
+<TITLE>Crypto Sardines</TITLE>
+</HEAD>
+<BODY>
+<H1>Crypto Sardines</H1>
+
+This page contains the inspired work of Alex Stewart (aka Riche), and
+his friend Rui Mendez.  They wrote a version of the rsa-perl script
+which looks like a sardine!  Several variations of this follow, please
+note they all still run, and are valid fully working non-US exportable
+perl scripts implementing RSA encryption.  For Alex's exposition of
+this <EM>amazing</EM> feat in combined ascii art and perl hackery read
+on ...
+
+<P>
+
+Riche, in email:
+
+<HR>
+<P>
+
+At one point, some time back, some friends and I were conversing
+online about various things, and as it happened, the conversation
+turned to one of sardines, for some reason or other which I can't
+recall at this particular time..  Another, parallel conversation which
+was also occurring at the time happened to be discussing the RSA PERL
+crypto-sig, your web pages, and related issues.  Anyway, as things are
+often wont to do when one is conversing online far too late into the
+wee hours of the morning, these two threads managed to merge
+themselves inextricably, and, well, one thing just kinda led to
+another, and, well..
+
+<P>
+It is my pleasure to present to you the first ever known specimen in captivity
+of the North American RSA Crypto-Sardine (sardina cryptographicus),
+captured for your perusal by myself
+(Alex Stewart <A HREF="mailto:riche@crl.com">&lt;riche@crl.com&gt;</A>), 
+and by my associate, 
+Rui Mendez <A HREF="mailto:azuki@di.uminho.pt">&lt;azuki@di.uminho.pt&gt;</A>:
+
+<P>
+
+<HR>
+<PRE>
+#!/usr/local/bin/perl -s-- -export-a-crypto-sardine -RSA-6-line-PERL-fish
+'\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____
+ \  ~.__---~';($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._
+  \  ]s!16do$w 2+4Oi0$d*-^1[d2%Sa2/d0&lt;X+d*La1=z\U$n%0]SX$k&quot;[$m*]&quot;\E[     ~.
+  /  ]s!szlXx++p&quot;|dc`,s/^.|\W//g,print pack('H*',$_)while read(STDIN,$m,&quot; .'
+ /  .-~~--.._&quot; +($w=2*$d-1+length($n||die&quot;$0 [-d] k n\n&quot;)&amp;~1)/2);'  __..-~
+,/.~         ~~~~----........._______________________.......-----~~'
+</PRE>
+<HR>
+
+And yes, as you are no doubt pondering, the above sardine is, in fact, also a
+valid and executable PERL script, which is perfectly compatible with existing
+crypto-sig software.
+
+<P>
+
+But then I got to thinking..  How do we know this specimen is, in fact,
+actually a sardine and not some fishy imposter?  Well, I cleverly devised a
+test.  If it is indeed a sardine, then it must be possible to pack it tightly
+with others of its kind in traditional sardine fashion..  And so:
+
+<P>
+
+<HR>
+<PRE>
+#!/usr/local/bin/perl -s-- -export-a-crypto-sardine -RSA-PERL-fishes
+'\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____
+ \  ~.__---~ ;($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._
+`\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____     ~.
+ \  ~.__---~ ;($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._ .`
+`\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____     ~.
+ \  ~.__---~';($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._ .'
+  \  ]s!16do$w 2+4Oi0$d*-^1[d2%Sa2/d0&lt;X+d*La1=z\U$n%0]SX$k&quot;[$m*]&quot;\E[     ~.
+  /  ]s!szlXx++p&quot;|dc`,s/^.|\W//g,print pack('H*',$_)while read(STDIN,$m,&quot; .'
+ /  .-~~--.._&quot; +($w=2*$d-1+length($n||die&quot;$0 [-d] k n\n&quot;)&amp;~1)/2);'  __..-~
+,/.~         ~~~~----........._______________________.......-----~~'
+</PRE>
+<HR>
+<p>
+Yes, indeed, it does in fact not only pack well with its sardinian buddies,
+but the above even also functions as an executable script, just like its
+solitary counterpart (in fact, it's even possible to duplicate the 3rd and 4th
+lines of the 10-line script as many times as desired (producing additional
+fish), while retaining its functionality).  I am therefore confident in my
+analysis of this specimen as definitely a sardine variety crypto-fish.
+<p>
+At this point it also occurred to me that now we have all these verified
+crypto-sardines all over the place, we would undoubtedly soon need some form
+of container to prevent them from getting out of hand..  I therefore present
+to you my last development in this area to date, the crypto-sardine can:
+<p>
+<HR>
+<PRE>
+#!/usr/local/bin/perl -s-- -export-a-crypto-sardine -RSA-PERL-fishes
+'---------------------------------------------------------------------------.
+|\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____        |
+|\  ~.__---~ ;($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._   |
+|\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____     ~. |
+|\  ~.__---~ ;($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._ .`|
+|\~.         __......--------~~~~~~~~~~~~~~~~~~~~~~~~-------....____     ~. |
+|\  ~.__---~';($k,$n)=@ARGV;$m=unpack(H.$w,$m.&quot;\0&quot;x$w),$_=`echo  &quot;[o~~-._ .'|
+| \  ]s!16do$w 2+4Oi0$d*-^1[d2%Sa2/d0&lt;X+d*La1=z\U$n%0]SX$k&quot;[$m*]&quot;\E[     ~. |
+| /  ]s!szlXx++p&quot;|dc`,s/^.|\W//g,print pack('H*',$_)while read(STDIN,$m,&quot; .'|
+|/  .-~~--.._&quot; +($w=2*$d-1+length($n||die&quot;$0 [-d] k n\n&quot;)&amp;~1)/2);'  __..-~  |
+|~-------------------------------------------------------------------------~|
+|                            Crypto Canning Co.                             |
+|                    <A HREF="http://www.cypherspace.org/~adam/rsa/">http://www.cypherspace.org/~adam/rsa/</A>                  |
+`---------------------------------------------------------------------------'
+</PRE>
+<HR>
+
+<P>
+
+So far little is known about the feeding, migration, or mating patterns of
+this new specimen, but tests and monitoring in these areas are continuing..
+
+<PRE>
+-alex
+-------------------------------------------------------------------------------
+     Alex Stewart - riche@crl.com - Richelieu @ Diversity University MOO
+                         <A HREF="http://www.crl.com/~riche/">http://www.crl.com/~riche/</A>
+            "Difficult answers lead to intelligent questions."
+</PRE>
+
+<HR>
+<EM>
+Comments, html bugs to me 
+(<A HREF="http://www.cypherspace.org/~adam/">Adam Back</A>) at
+<A HREF="mailto:adam@cypherspace.org">&lt;adam@cypherspace.org&gt;</A>
+
+</BODY>
+</HTML>
